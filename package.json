@@ -1,7 +1,9 @@
 {
-  "name": "npm-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "hieund20-reactjs-components",
+  "version": "0.1.2",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

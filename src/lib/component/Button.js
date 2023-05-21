@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/buttonStyle.css";
 
-const ButtonComponent = (props) => {
+const Button = (props) => {
   const {
     text = "CONTAINED",
     variant = "contained",
@@ -27,4 +27,4 @@ const ButtonComponent = (props) => {
   );
 };
 
-export default ButtonComponent;
+export default Button;
