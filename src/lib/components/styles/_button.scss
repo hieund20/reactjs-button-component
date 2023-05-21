@@ -1,0 +1,89 @@
+.button-component {
+    width: 115px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: #0292bf;
+    color: #fff;
+    cursor: pointer;
+
+    &.--medium {
+        width: 115px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    &.--small {
+        width: 94px;
+        height: 34.71px;
+        font-size: 10px;
+    }
+
+    &.--large {
+        width: 123px;
+        height: 52px;
+        font-size: 14px;
+    }
+
+    /* variant=contained */
+    &.--contained {
+        border: 0;
+
+        &.--disabled {
+            background-color: #b7b7b7 !important;
+            color: #757575 !important;
+            cursor: default !important;
+        }
+
+        &.--disabled:hover {
+            opacity: 1 !important;
+        }
+    }
+
+    /* variant=outline */
+    &.--outline {
+        border: 1px solid;
+        background-color: #fff;
+
+        &.--disabled {
+            border-color: #b7b7b7 !important;
+            color: #757575 !important;
+            cursor: default !important;
+        }
+
+        &.--disabled:hover {
+            opacity: 1 !important;
+        }
+    }
+
+    /* variant=text */
+    &.--text {
+        background-color: #fff;
+        border: 0;
+
+        &:hover {
+            background-color: rgba($color: var(--hover-text-variant-bgColor), $alpha: 0.2) !important;
+        }
+
+        &.--disabled {
+            color: #757575 !important;
+            cursor: default !important;
+        }
+
+        &.--disabled:hover {
+            opacity: 1 !important;
+            background-color: #fff !important;
+        }
+    }
+
+    /* have icon */
+    &.--haveIcon {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

@@ -5,8 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
-require("./styles/buttonStyle.css");
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+// import "./styles/_button.scss";
+
 const Button = props => {
   const {
     text = "CONTAINED",
