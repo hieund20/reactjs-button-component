@@ -18,7 +18,7 @@ const hexToRGB = hex => {
 };
 const Button = props => {
   const {
-    text = "CONTAINED",
+    text = "text",
     variant = "contained",
     disabled = false,
     backgroundColor = "",
