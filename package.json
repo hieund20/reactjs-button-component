@@ -1,6 +1,6 @@
 {
   "name": "reactjs-button-component",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -44,5 +44,10 @@
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.21.8",
     "@babel/preset-env": "^7.21.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieund20/reactjs-button-component.git"
+  },
+  "keywords": ["react", "component", "button"]
 }
