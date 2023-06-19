@@ -2,7 +2,7 @@
 Run the following commands to add UI library to your project:
 
 ```
-npm i hieund20-reactjs-components
+npm i reactjs-button-component
 
 ```
 
@@ -10,7 +10,7 @@ npm i hieund20-reactjs-components
 
 ## Import
 ```
-import { Button } from 'hieund20-reactjs-components';
+import { Button } from 'reactjs-button-component';
 
 ```
 
